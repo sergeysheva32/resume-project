@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
   padding: 40px;
+  color: #000000;
 }
 
 .wrapper {
@@ -10,7 +11,6 @@ body {
   background: #ffffff;
   width: 1050px;
   margin: 0 auto;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Main content */
@@ -39,7 +39,7 @@ body {
 .buttons a {
   text-decoration: none;
   color: #000000;
-  border: 1px solid #595959;
+  border: 1px solid #000000;
   border-radius: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -54,11 +54,12 @@ body {
 /* About me */
 .my-profession {
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 27px;
   line-height: 17px;
   color: #000000;
-  margin: 0 0 18px 0;
+  margin: 0;
+  padding-left: 70px;
 }
 
 .my-name {
@@ -68,19 +69,21 @@ body {
   line-height: 55px;
   color: #000000;
   margin: 0 0 28px 0;
+  padding-left: 70px;
 }
 
 .my-deskr {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #595959;
   width: 525px;
+  margin: 0;
+  color: #000000;
 }
 
 .about-me-container {
-  padding-top: 60px;
+  padding-top: 50px;
   margin-bottom: 64px;
 }
 
@@ -88,13 +91,15 @@ body {
 .project-item {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
+  list-style: none;
+  padding-bottom: 20px;
 }
 
 .project-list {
-  padding: 0 0 0 16px;
+  padding: 0;
 }
 
 .projects-container {
@@ -104,18 +109,18 @@ body {
 .project-item-descr {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
 }
 
 .item-descr-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   text-decoration-line: underline;
-  color: #005fff;
+  color: #000000;
 }
 
 /* Work experience */
@@ -137,24 +142,23 @@ body {
 }
 
 .work-experience-company {
-  color: #6d9bf5;
 }
 
 .work-period {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #000000;
   margin: 12px 0 8px 0;
 }
 
 .work-duties {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  color: #595959;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .work-duties-list {
@@ -165,7 +169,6 @@ body {
 /* Sidebar */
 .sidebar {
   width: 370px;
-  background: #e0ebfe;
   padding-bottom: 40px;
 }
 
@@ -176,7 +179,7 @@ body {
 .contacts-container,
 .tech-skills-container,
 .soft-skills-container {
-  margin: 48px 0 0 40px;
+  margin: 48px 0 0 70px;
 }
 
 .sidebar-title {
@@ -184,16 +187,16 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  color: #161d2a;
+  color: #000000;
   margin-bottom: 8px;
 }
 
 .contacts-type {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #161d2a;
+  color: #000000;
   margin-right: 8px;
 }
 
@@ -204,19 +207,17 @@ body {
 .contacts-number {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #161d2a;
-  text-decoration: none;
+  color: #000000;
 }
 
 .contacts-email {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #161d2a;
-  text-decoration: none;
+  color: #000000;
 }
 
 /* Skills */
@@ -226,15 +227,15 @@ body {
 }
 
 .skills-list-item {
-  color: #6d9bf5;
+  color: #000000;
 }
 
 .skills-list-text {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #161d2a;
+  color: #000000;
 }
 
 /* Education */
@@ -247,14 +248,14 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #6d9bf5;
+  color: #000000;
   margin: 12px 0 0 0;
 }
 
 .name-education-faculty {
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 17px;
   color: #000000;
   margin: 12px 0 0 0;
@@ -263,8 +264,33 @@ body {
 .education-period {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #000000;
   margin: 12px 0 8px 0;
+}
+
+.name {
+  background: #ffffff;
+  width: 1050px;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+.link-border {
+  border-bottom: solid;
+}
+
+.role-project {
+  font-weight: 600;
+
+  font-size: 16px;
+  margin: 0;
+}
+
+.role-project-span {
+  font-weight: 400;
+
+  font-size: 16px;
+  margin: 0;
 }
