@@ -140,6 +140,9 @@ body {
 
 .work-experience-place {
   margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .work-experience-company {
